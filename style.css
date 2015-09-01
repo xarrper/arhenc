@@ -1,0 +1,61 @@
+div {
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.21);
+}
+p {
+	font: 18px tahoma;
+}
+form{
+	padding: 30px 0;
+}
+.block {
+    float: left;
+    height: 250px;
+    width: 270px;
+    background-color: #FCFFFC;
+    margin: 50px 5px;
+}
+.menu {
+    position: fixed;
+	left: 10px;
+    right: 10px;
+    display: block;
+    height: 28px;
+    background-color: rgba(0, 189, 0, 0.85);
+    border-radius: 0px 0px 12px 12px;
+	color: #FCFFFC;
+	font: bold 18px tahoma;
+   
+}
+#comboDiv {
+    margin: 0 auto;
+	text-align: center;
+    width: 840px;
+}
+.block1 {
+
+}
+.block2 {
+	height: auto;
+}
+.block3 {
+	
+}
+.block4 {
+	margin-left: 100px;
+	width: auto;
+}	
+.end {
+	margin: 0 10px;
+    height: 10px;
+    background-color: rgba(0, 189, 0, 0.85);
+    clear: both;
+}
+input[name="exit"] {
+	float:right;
+}
+form[action*="exit.php"] {
+	display: inline;
+}
+#insert {
+	cursor:pointer;
+}
