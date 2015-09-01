@@ -1,4 +1,4 @@
-<?
+<?php
 
 function array_id_questions() { //заполнения массива сессии случайными вопросами.
 	$count_questions = count(file('questions.csv')); 

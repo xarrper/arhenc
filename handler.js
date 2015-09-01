@@ -4,7 +4,9 @@ $(document).on('click','#insert',function() { //div > span
 		url: 'insert_question.php',
 		type: 'POST',
 		data: {val: val},
-		success: function() {
+		success: function(data) {
+                        var json = $.parseJSON(data);
+                        alert(json);
 			alert('Данные успешно отправлены');
 			$('input[name = "question"]').val('');
 		}

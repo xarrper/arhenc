@@ -1,2 +1,2 @@
-<?
-define("PATH","http://www.arhenc/1");
+<?php
+define("PATH","http://www.xarrper.com/");
